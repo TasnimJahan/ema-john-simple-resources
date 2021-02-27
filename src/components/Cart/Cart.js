@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Cart = (props) => {
-    console.log(props.cart);
+    // console.log(props.cart);
     const cart = props.cart;
-    console.log(cart);
+    // console.log(cart);
 
     const total = cart.reduce((total,prd)=>total+prd.price , 0);
     let shippingHandling = cart.reduce((shippingHandling,prd)=>shippingHandling+prd.shipping , 0);
