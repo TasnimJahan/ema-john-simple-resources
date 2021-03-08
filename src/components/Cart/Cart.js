@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import fakeData from '../../fakeData';
+import { getDatabaseCart } from '../../utilities/databaseManager';
 
 const Cart = (props) => {
     // console.log(props.cart);
     const cart = props.cart;
     // console.log(cart);
 
-    const total = cart.reduce((total,prd)=>total+prd.price , 0);
+    const total = cart.reduce((total,prd)=> total + prd.price * prd.quantity , 0);
+    // debugger;
     let shippingHandling = cart.reduce((shippingHandling,prd)=>shippingHandling+prd.shipping , 0);
     shippingHandling = shippingHandling.toFixed(2)
     // let total=0;
@@ -29,7 +32,10 @@ const Cart = (props) => {
             <p><small>Total before tax:	${totalBeforeTax}</small></p>
             <p><small>Estimated Tax:$0{tax}</small></p>
             <p>Order Total:	${grandTotal}</p>
-            <button className="main-button">Review your order</button>
+            {
+                props.children //mane cart k jekhan jekhan theke call kora hyche hekhaner child golo ekhane bosbe..
+            }
+            {/* <Link to="/review"><button className="main-button">Review your order</button></Link> */}
         </div>
     );
 };

@@ -12,7 +12,7 @@ nav a{
     text-decoration: none;
     color: white;
     margin-right: 3%;
-    padding: 1%;
+    padding: 6px;
 }
 nav a:hover{
     background-color: gray;

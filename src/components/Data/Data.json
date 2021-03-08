@@ -1,0 +1,71 @@
+[{
+  "id": 1,
+  "name": "Filberto Rickaby",
+  "email": "frickaby0@barnesandnoble.com",
+  "gender": "Agender",
+  "salary": "Rupiah",
+  "is_married": true
+}, {
+  "id": 2,
+  "name": "Calv Rowler",
+  "email": "crowler1@tripod.com",
+  "gender": "Male",
+  "salary": "Peso",
+  "is_married": true
+}, {
+  "id": 3,
+  "name": "Kaila Findlow",
+  "email": "kfindlow2@uiuc.edu",
+  "gender": "Genderfluid",
+  "salary": "Peso",
+  "is_married": false
+}, {
+  "id": 4,
+  "name": "Maryellen D'Cruze",
+  "email": "mdcruze3@networkadvertising.org",
+  "gender": "Genderqueer",
+  "salary": "Rupiah",
+  "is_married": true
+}, {
+  "id": 5,
+  "name": "Dinny Basill",
+  "email": "dbasill4@webs.com",
+  "gender": "Male",
+  "salary": "Hryvnia",
+  "is_married": false
+}, {
+  "id": 6,
+  "name": "Christi Arnauduc",
+  "email": "carnauduc5@cornell.edu",
+  "gender": "Agender",
+  "salary": "Rial",
+  "is_married": false
+}, {
+  "id": 7,
+  "name": "Claudianus Pavolini",
+  "email": "cpavolini6@ezinearticles.com",
+  "gender": "Agender",
+  "salary": "Rupiah",
+  "is_married": true
+}, {
+  "id": 8,
+  "name": "Geneva Riseley",
+  "email": "griseley7@4shared.com",
+  "gender": "Genderqueer",
+  "salary": "Real",
+  "is_married": false
+}, {
+  "id": 9,
+  "name": "Jerrie McPeck",
+  "email": "jmcpeck8@friendfeed.com",
+  "gender": "Female",
+  "salary": "Rial",
+  "is_married": false
+}, {
+  "id": 10,
+  "name": "Cosimo Vasquez",
+  "email": "cvasquez9@weather.com",
+  "gender": "Agender",
+  "salary": "Yuan Renminbi",
+  "is_married": true
+}]
